@@ -19,9 +19,9 @@ void input() {          // Procedure input
         }
     }
     cout << endl;                                       // Membuat jarak perbaris program
-    cout << "======================" << endl;           // Membuat tampilan susunan data elemen array
+    cout << "========================" << endl;           // Membuat tampilan susunan data elemen array
     cout << "Masukkan Element Array" << endl;
-    cout << "======================" << endl;
+    cout << "========================" << endl;
 
 
     for (int i = 0; i < n; i++)                 // Menggunakan perulangan for untuk menyimpan data pada array
@@ -52,7 +52,7 @@ void insertionsort() {                  // Procedure InsertionSort
         arr[j + 1] = temp;              // 5. Simpan nilai temp ke dalam arr[j+1]
 
 
-        cout << "\nPass" << i << ": ";  // Output ke layar
+        cout << "\nPass" << i << " : ";  // Output ke layar
         for (int k = 0; k < n; k++) {   // Looping nilai k dimulai dari 0 hingga n-1
             cout << arr[k] << " ";      // Output ke layar
         }
@@ -62,7 +62,7 @@ void insertionsort() {                  // Procedure InsertionSort
 
 void display() {                    // Procedure display
     cout << endl;                                           // Output baris kosong
-    cout << "\n================================" << endl;   // Output ke layar
+    cout << "\n==================================" << endl;   // Output ke layar
     cout << "Element Array yang telah tersusun" << endl;    // Output ke layar
     cout << "==================================" << endl;   // Output ke layar
 
